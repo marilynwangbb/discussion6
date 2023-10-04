@@ -1,0 +1,130 @@
+body{
+   /* Set line spacing */
+   line-height: 2;
+}
+
+
+header, nav{
+    /* Set padding and margin */
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+nav{
+    text-align: center;
+}
+nav ul li{
+    /* Set display, margin, padding, font-size, background-color */
+    display:inline-block;
+    margin-right: 20%;
+    padding-left: 2%;
+    padding-top: 5%;
+    padding-right:2%;
+    padding-bottom: 5%;
+    font-size: 20px;
+    background:beige;
+
+}
+
+nav a{
+    /* Set text decoration*/
+    text-decoration: none;
+}
+
+a:visited{
+    /* Set color */
+    color:black;
+
+}
+
+nav a.current{
+    /* Set text decoration, transformation, and underline properties */
+    text-decoration: brown wavy underline;
+    text-underline-offset: 4px;
+
+
+}
+
+
+h1{
+   /*Set font and font size*/
+   font-family:'Anton', 'Times New Roman', Times, serif;
+   font-size: larger;
+}
+
+h2{
+    /*Set font, font size, and alignment*/
+    font-family:'Merriweather', 'Anton', 'Times New Roman', Times, serif;
+    font-size: 18pt;
+    text-align:center;
+}
+
+h3{
+    /*Set font size*/
+    font-size:larger;
+
+}
+
+h1, h2, h3{
+    /*Set margin */
+    margin-top: 10px;
+
+}
+.grid{
+    /*Set width, margin, border properties, background color, and grid properties */
+    display:grid;
+    grid-template-columns: repeat(3,30%);
+    width:90%;
+    margin: 0 auto;
+    background-color:grey;
+    justify-content: space-between;
+    border-radius: 20px;
+    row-gap:10px;
+
+}
+
+.grid div{
+    /* Set border properties, padding, and background color */
+    background-color: white;
+    border: 5px black solid;
+    border-radius: 5px;
+    
+
+}
+
+.grid img{
+    /* Set width, margin, and display */
+    width:90%;
+    margin: 0 auto;
+    display:block;
+}
+
+
+.grid div:nth-child(3n+1)  {
+    /* Set box shadow */
+    }
+
+.grid div:nth-child(3n)  {
+    /* Set box shadow */ 
+}
+
+.grid div:nth-child(3n+2)  {
+     /* Set box shadow */
+}
+    
+
+p + p {
+     /* Set indentation */
+  }
+  
+p{
+     /* Set margin */
+}
+
+
+.grid ul li{
+    /* Set margin, line-spacing, list styling  */
+}
